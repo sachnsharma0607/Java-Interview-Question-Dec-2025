@@ -14,5 +14,6 @@ public static void main(String[] args) {
 
     // displaying the required count
     System.out.println(ans);
+ 
 }
 }
