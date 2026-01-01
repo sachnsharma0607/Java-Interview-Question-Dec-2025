@@ -7,12 +7,14 @@ public class Count_StreamElemeent_using_counting {
 public static void main(String[] args) {
 	// creating a stream of strings
     Stream<String> s = Stream.of("1", "2", "3", "4");
+    System.out.println("stream "+s.toString());
 
     // using Collectors counting() method to
     // count the number of input elements
     long ans = s.collect(Collectors.counting());
 
     // displaying the required count
+    System.out.println("================");
     System.out.println(ans);
  
 }
