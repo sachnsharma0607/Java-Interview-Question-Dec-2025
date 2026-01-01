@@ -15,7 +15,7 @@ public static void main(String[] args) {
 
     // displaying the required count
     System.out.println("========find the count ========");
-    System.out.println(ans);
+    System.out.println("count the interger value using stream function "+ans);
  
 }
 }
