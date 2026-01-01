@@ -13,6 +13,7 @@ public static void main(String[] args) {
     long ans = s.collect(Collectors.counting());
 
     // displaying the required count
+    System.out.println("================");
     System.out.println(ans);
  
 }
